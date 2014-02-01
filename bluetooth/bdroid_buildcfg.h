@@ -20,12 +20,16 @@
 #define BTM_DEF_LOCAL_NAME   "HP TouchPad"
 
 // Networking, Capturing, Object Transfer
-// MAJOR CLASS: COMPUTER
-// MINOR CLASS: LAPTOP
+// Major Class: COMPUTER
+// Minor Class: LAPTOP
 #define BTA_DM_COD {0x1A, 0x01, 0x0C}
 
 #define BLE_INCLUDED FALSE
 #define BTA_GATT_INCLUDED FALSE
 #define SMP_INCLUDED FALSE
+
+#define BTM_BYPASS_EXTRA_ACL_SETUP TRUE
+
+#define BTM_AUTOMATIC_HCI_RESET TRUE
 
 #endif
