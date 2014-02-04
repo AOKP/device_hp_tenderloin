@@ -191,3 +191,6 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/hp/tenderloin/tenderloin-vendor.mk)
+
+# include milaq vendor stuff
+$(call inherit-product-if-exists, vendor/mlq/mlq.mk)
