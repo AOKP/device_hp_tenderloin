@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
     rebootcmd
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.tenderloin
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     device/hp/tenderloin/prebuilt/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
