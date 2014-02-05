@@ -42,6 +42,7 @@
 /dev/oncrpc/*             0660   root       qcom_oncrpc
 /dev/adsp/*               0660   system     audio
 /dev/snd/*                0660   system     audio
+/dev/msm_camera/*         0660   system     camera
 /dev/i2c-0                0664   root       system
 /dev/i2c-1                0664   root       system
 /dev/i2c-2                0664   root       system
@@ -78,7 +79,9 @@
 /dev/sdioctl8             0640   radio      radio
 /dev/rmnet_mux_ctrl       0640   radio      radio
 /dev/mtp_usb              0660   root       mtp
+/dev/gemini0              0660   system     camera
 /dev/usb_accessory        0660   root       usb
+/dev/video*               0660   system     camera 
 /dev/tun                  0660   system     vpn
 #regular apps need to be able to open ion
 /dev/ion                  0664   media     system
