@@ -49,7 +49,7 @@ BOARD_EGL_CFG := device/hp/tenderloin/configs/egl.cfg
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_QCOM_AUDIO_VARIANT := caf
+TARGET_QCOM_MEDIA_VARIANT := caf
 TARGET_QCOM_DISPLAY_VARIANT := caf
 
 # QCOM HAL
