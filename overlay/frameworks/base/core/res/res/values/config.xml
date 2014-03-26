@@ -20,6 +20,9 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+
+    <string name="config_datause_iface" translatable="false">wlan0</string>
+
     <!-- An Array of "[Connection name],[ConnectivityManager.TYPE_xxxx],
          [associated radio-type],[priority],[restore-timer(ms)],[dependencyMet]  -->
     <!-- the 5th element "restore-timer" indicates the number of milliseconds to delay
