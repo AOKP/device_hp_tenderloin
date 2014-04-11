@@ -2,13 +2,13 @@
 PRODUCT_RELEASE_NAME := TouchPad
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aokp/configs/common_tablet.mk)
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/hp/tenderloin/full_tenderloin.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aokp_tenderloin
+PRODUCT_NAME := cm_tenderloin
 PRODUCT_DEVICE := tenderloin
 PRODUCT_BRAND := HP
 PRODUCT_MODEL := TouchPad

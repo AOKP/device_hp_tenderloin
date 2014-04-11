@@ -78,7 +78,9 @@ def WriteFullOTAPackage(input_zip, output_zip):
 
   symlinks = CopySystemFiles(input_zip, output_zip)
   script.MakeSymlinks(symlinks)
+#--make boot.img
 
+mkimage -A ARM -O Linux -T multi -C none -n "AOKP tenderloin Multiboot" -d /home/sixohtew/aokptp/out/target/product/tenderloin/kernel:/home/sixohtew/aokptp/out/target/product/tenderloin/ramdisk.ub /home/sixohtew/aokptp/out/target/product/tenderloin/boot.img
 
   # -- tenderloin build change starting
   #boot_img = common.File("boot.img", common.BuildBootableImage(
